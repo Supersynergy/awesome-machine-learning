@@ -1,4 +1,6 @@
-<img src="assets/hero.png" alt="Awesome Machine Learning im Comic-Stil" width="300" align="right">
+<p align="center">
+  <img src="assets/hero.png" alt="Awesome Machine Learning im Comic-Stil" width="420">
+</p>
 
 # Awesome Machine Learning
 
@@ -6,7 +8,7 @@
 
 **Wo anfangen?** Für Tabellen genügt oft eine einfache Baseline. Für Zeitreihen entscheidet der Prognosehorizont über den Vergleich. Bei lokaler Inferenz lohnt sich eine eigene Messung von Modellgüte und Laufzeit.
 
-<br clear="all">
+[Vergleichsstudien und Messprotokolle](VERGLEICHE.md) · [Projektindex](#projektindex)
 
 ## Werkzeugauswahl
 
