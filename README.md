@@ -8,7 +8,7 @@
 
 **Wo anfangen?** Für Tabellen genügt oft eine einfache Baseline. Für Zeitreihen entscheidet der Prognosehorizont über den Vergleich. Bei lokaler Inferenz lohnt sich eine eigene Messung von Modellgüte und Laufzeit.
 
-[Vergleichsstudien und Messprotokolle](VERGLEICHE.md) · [Projektindex](#projektindex)
+[Vergleichsstudien und Messprotokolle](VERGLEICHE.md) · [Seltene Treffer und Fehlalarme](VERGLEICHE.md#seltene-treffer) · [Kalibrierung](VERGLEICHE.md#kalibrierung) · [Datenverschiebung](VERGLEICHE.md#datenverschiebung) · [Projektindex](#projektindex)
 
 ## Werkzeugauswahl
 
