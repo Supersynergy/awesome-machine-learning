@@ -4,11 +4,15 @@
 
 # Awesome Machine Learning
 
-162 öffentliche Projekte in 24 Kategorien. Stand: 13. November 2026. Der [Katalog](KATALOG.md) führt vom Einsatzzweck zum Originalprojekt und nennt die Lizenz, soweit GitHub sie ausweist.
+167 öffentliche Projekte in 24 Kategorien. Stand: 13. November 2026. Der [Katalog](KATALOG.md) führt vom Einsatzzweck zum Originalprojekt und nennt die Lizenz, soweit GitHub sie ausweist.
 
 **Wo anfangen?** Für Tabellen genügt oft eine einfache Baseline. Für Zeitreihen entscheidet der Prognosehorizont über den Vergleich. Bei lokaler Inferenz lohnt sich eine eigene Messung von Modellgüte und Laufzeit.
 
 [Vergleichsstudien und Messprotokolle](VERGLEICHE.md) · [Seltene Treffer und Fehlalarme](VERGLEICHE.md#seltene-treffer) · [Kalibrierung](VERGLEICHE.md#kalibrierung) · [Datenverschiebung](VERGLEICHE.md#datenverschiebung) · [Projektindex](#projektindex)
+
+## Was auf YouTube praktisch gezeigt wird
+
+Am 13. November 2026 enthielten die zwölf jüngsten sichtbaren Uploads des CVAT-Kanals mehrere Beispiele für Vorannotation und Labelprüfung. Zwei davon zeigen, wie man wiederkehrende Objekte mit Textprompts segmentiert und die Qualität fertiger Labels beurteilt. Unter den acht jüngsten Voxel51-Uploads fanden sich ebenfalls Beispiele für visuelle Annotation und für den Weg von Rohdaten zum Detektor. Das ist eine Momentaufnahme zweier Projektkanäle. Für die Werkzeugauswahl unten zählt, welche Aufgabe sich anhand der Dokumentation nachvollziehen lässt. [CVAT-Segmentierung](https://www.youtube.com/watch?v=SJ9XkufqU9Y) · [CVAT-Qualitätsprüfung](https://www.youtube.com/watch?v=JRsX4SL89tE) · [Voxel51-Vortrag zu visueller Annotation](https://www.youtube.com/watch?v=nwuwVt6dflc)
 
 ## Werkzeugauswahl
 
@@ -80,10 +84,12 @@ Die Tabellen enthalten Projektbeschreibungen und redaktionelle Einsatzbeispiele.
 
 | Projekt | Beschreibung des Projekts | Lizenz |
 |---|---|---|
+| [cvat-ai/cvat](https://github.com/cvat-ai/cvat) | Pakete auf einem Förderband in Videosequenzen markieren. Automatisch vorgeschlagene Masken an Verdeckungen und bei ähnlichen Nachbarobjekten einzeln prüfen. [Projektanleitung](https://github.com/cvat-ai/cvat#readme) | MIT |
 | [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything) | The repository provides code for running inference with the SegmentAnything Model (SAM), links for downloading the trained model checkpoints, and example notebooks that show how to use the model. | Apache-2.0 |
 | [open-mmlab/mmdetection](https://github.com/open-mmlab/mmdetection) | OpenMMLab Detection Toolbox and Benchmark | Apache-2.0 |
 | [roboflow/supervision](https://github.com/roboflow/supervision) | We write your reusable computer vision tools. 💜 | MIT |
 | [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics) | Ultralytics YOLO27, YOLO26, YOLO11, YOLOv8 — object detection, instance segmentation, semantic segmentation, image classification, pose estimation, object tracking | AGPL-3.0 |
+| [voxel51/fiftyone](https://github.com/voxel51/fiftyone) | Bei einem Paketdetektor die übersehenen Pakete aus Nachtaufnahmen anzeigen und mit Tagesaufnahmen derselben Kamera vergleichen. Pro Teilmenge auch die Zahl der gelabelten Objekte berichten. [Modellauswertung nach Teilmenge](https://docs.voxel51.com/user_guide/evaluation/index.html) | Apache-2.0 |
 
 ### Datenaufbereitung
 
@@ -91,6 +97,7 @@ Die Tabellen enthalten Projektbeschreibungen und redaktionelle Einsatzbeispiele.
 |---|---|---|
 | [apache/arrow](https://github.com/apache/arrow) | Apache Arrow is the universal columnar format and multi-language toolbox for fast data interchange and in-memory analytics | Apache-2.0 |
 | [huggingface/datasets](https://github.com/huggingface/datasets) | 🤗 The largest hub of ready-to-use datasets for AI models with fast, easy-to-use and efficient data manipulation tools | Apache-2.0 |
+| [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio) | Für Supporttickets vorgeschlagene Fehlerkategorien importieren und von Fachleuten korrigieren lassen. Eine Stichprobe ohne sichtbare Vorschläge doppelt annotieren, um übernommene Modellfehler zu erkennen. [Vorannotationen importieren](https://labelstud.io/guide/predictions.html) | Apache-2.0 |
 
 ### Diffusion
 
@@ -109,6 +116,7 @@ Die Tabellen enthalten Projektbeschreibungen und redaktionelle Einsatzbeispiele.
 | [FlagOpen/FlagEmbedding](https://github.com/FlagOpen/FlagEmbedding) | Retrieval and Retrieval-augmented LLMs | MIT |
 | [huggingface/sentence-transformers](https://github.com/huggingface/sentence-transformers) | State-of-the-Art Embeddings, Retrieval, and Reranking | Apache-2.0 |
 | [huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference) | A blazing fast inference solution for text embeddings models | Apache-2.0 |
+| [lmcinnes/umap](https://github.com/lmcinnes/umap) | Bild-Embeddings auf zwei Dimensionen projizieren und auffällige Nachbarschaften auf doppelte Produktfotos untersuchen. Kandidaten im ursprünglichen Embedding-Raum und am Bild prüfen, weil die Projektion künstliche Lücken erzeugen kann. [Grenzen beim Clustering](https://umap-learn.readthedocs.io/en/latest/using_umap_for_clustering.html) | BSD-3-Clause |
 | [MinishLab/model2vec](https://github.com/MinishLab/model2vec) | Fast State-of-the-Art Static Embeddings | MIT |
 | [qdrant/fastembed](https://github.com/qdrant/fastembed) | Fast, Accurate, Lightweight Python library to make State of the Art Embedding | Apache-2.0 |
 
@@ -170,6 +178,7 @@ Die Tabellen enthalten Projektbeschreibungen und redaktionelle Einsatzbeispiele.
 | Projekt | Beschreibung des Projekts | Lizenz |
 |---|---|---|
 | [duckdb/duckdb](https://github.com/duckdb/duckdb) | DuckDB is a high-performance analytical database system | MIT |
+| [MaartenGr/BERTopic](https://github.com/MaartenGr/BERTopic) | Wiederkehrende Reklamationsgründe in Freitext entdecken. Je Thema Originalmeldungen und die nicht zugeordneten Texte prüfen, bevor aus Clustergrößen Prioritäten abgeleitet werden. [Themen und Ausreißer prüfen](https://maartengr.github.io/BERTopic/getting_started/best_practices/best_practices.html) | MIT |
 | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | cuDF - GPU DataFrame Library | Apache-2.0 |
 | [online-ml/river](https://github.com/online-ml/river) | 🌊 Online machine learning in Python | BSD-3-Clause |
 | [pola-rs/polars](https://github.com/pola-rs/polars) | Extremely fast Query Engine for DataFrames, written in Rust | MIT |
