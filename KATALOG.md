@@ -1,6 +1,6 @@
 # ML-Projektkatalog
 
-156 öffentliche Projekte in 24 Kategorien. Stand: 13. November 2026. Die Beschreibungen stammen von den verlinkten Projekten. Aufgenommen wurden öffentlich zugängliche, zum Prüfzeitpunkt nicht archivierte Repositories.
+162 öffentliche Projekte in 24 Kategorien. Stand: 13. November 2026. Die Einträge enthalten Projektbeschreibungen und redaktionelle Einsatzbeispiele mit Quellen. Aufgenommen wurden öffentlich zugängliche, zum Prüfzeitpunkt nicht archivierte Repositories.
 
 ¹ Die Lizenzangabe folgt den GitHub-Metadaten. Für Modelle und Datensätze können eigene Bedingungen gelten.
 
@@ -86,6 +86,8 @@
 
 | Projekt | Beschreibung des Projekts | Lizenz¹ |
 |---|---|---|
+| [cleanlab/cleanlab](https://github.com/cleanlab/cleanlab) | Bei widersprüchlich etikettierten Retouren die auffälligsten Fälle zur menschlichen Prüfung sortieren. Dafür Klassenwahrscheinlichkeiten aus Vorhersagen außerhalb des jeweiligen Trainingsfolds verwenden. Ein hoher Verdachtswert allein rechtfertigt keine Umetikettierung. [Labelaudit](https://docs.cleanlab.ai/stable/tutorials/indepth_overview.html) | Apache-2.0 |
+| [evidentlyai/evidently](https://github.com/evidentlyai/evidently) | Nach einem Sensorwechsel aktuelle Messwerte mit einer Referenzperiode derselben Schicht vergleichen. Auffällige Merkmale untersuchen und die Fehlerquote mit später verfügbaren Labels überprüfen. Ein Driftalarm allein misst keine Modellgüte. [Driftverfahren](https://docs.evidentlyai.com/metrics/explainer_drift) | Apache-2.0 |
 | [unionai-oss/pandera](https://github.com/unionai-oss/pandera) | A light-weight, flexible, and expressive statistical data testing library | MIT |
 
 ## Evaluation
@@ -97,6 +99,7 @@
 | [Giskard-AI/giskard-oss](https://github.com/Giskard-AI/giskard-oss) | 🐢 Open-Source Evaluation &amp; Testing library for LLM Agents | Apache-2.0 |
 | [interpretml/interpret](https://github.com/interpretml/interpret) | Fit interpretable models. Explain blackbox machine learning. | MIT |
 | [promptfoo/promptfoo](https://github.com/promptfoo/promptfoo) | Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration. Used by OpenAI and Anthropic. | MIT |
+| [scikit-learn-contrib/MAPIE](https://github.com/scikit-learn-contrib/MAPIE) | Für Lieferzeiten ein 90-%-Vorhersageintervall aus separaten Kalibrierdaten bilden. Auf zurückgehaltenen Lieferungen Abdeckung und typische Intervallbreite messen. Die marginale Abdeckung unter Austauschbarkeit garantiert keine 90 % für jede Region. [Konforme Vorhersage](https://mapie.readthedocs.io/en/stable/) | BSD-3-Clause |
 | [shap/shap](https://github.com/shap/shap) | A game theoretic approach to explain the output of any machine learning model. | MIT |
 | [UKGovernmentBEIS/inspect_ai](https://github.com/UKGovernmentBEIS/inspect_ai) | Inspect: A framework for large language model evaluations | MIT |
 
@@ -123,6 +126,7 @@
 | [InternLM/lmdeploy](https://github.com/InternLM/lmdeploy) | LMDeploy is a toolkit for compressing, deploying, and serving LLMs. | Apache-2.0 |
 | [kvcache-ai/ktransformers](https://github.com/kvcache-ai/ktransformers) | A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations | Apache-2.0 |
 | [lm-sys/FastChat](https://github.com/lm-sys/FastChat) | An open platform for training, serving, and evaluating large language models. Release repo for Vicuna and Chatbot Arena. | Apache-2.0 |
+| [microsoft/onnxruntime](https://github.com/microsoft/onnxruntime) | Einen ONNX-Bildklassifikator für eine CPU-Kamera statisch auf INT8 quantisieren. Repräsentative Bilder zur Quantisierung verwenden, dann Trefferquote und Latenz auf dem Zielgerät mit FP32 vergleichen. Der Laufzeitgewinn hängt von Operatoren und Hardware ab. [Quantisierungsleitfaden](https://onnxruntime.ai/docs/performance/model-optimizations/quantization.html) | MIT |
 | [mlc-ai/mlc-llm](https://github.com/mlc-ai/mlc-llm) | Universal LLM Deployment Engine with ML Compilation | Apache-2.0 |
 | [mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile) | Distribute and run LLMs with a single file. | siehe Repository |
 | [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) | TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way. | siehe Repository |
@@ -139,6 +143,7 @@
 | [NVIDIA/cudf](https://github.com/NVIDIA/cudf) | cuDF - GPU DataFrame Library | Apache-2.0 |
 | [online-ml/river](https://github.com/online-ml/river) | 🌊 Online machine learning in Python | BSD-3-Clause |
 | [pola-rs/polars](https://github.com/pola-rs/polars) | Extremely fast Query Engine for DataFrames, written in Rust | MIT |
+| [scikit-learn-contrib/imbalanced-learn](https://github.com/scikit-learn-contrib/imbalanced-learn) | Bei seltenen Defekten Unterabtastung gegen ein Modell mit Klassengewichten testen. Den Sampler nur innerhalb jedes Trainingsfolds anwenden und die Präzision auf der ursprünglichen Fehlerquote messen. [Resampling ohne Datenleck](https://imbalanced-learn.org/stable/common_pitfalls.html) | MIT |
 | [scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn) | scikit-learn: machine learning in Python | BSD-3-Clause |
 
 ## Laufzeitmessung
@@ -164,6 +169,7 @@
 |---|---|---|
 | [aimhubio/aim](https://github.com/aimhubio/aim) | Aim 💫 — An easy-to-use &amp; supercharged open-source experiment tracker. | Apache-2.0 |
 | [bentoml/BentoML](https://github.com/bentoml/BentoML) | The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more! | Apache-2.0 |
+| [feast-dev/feast](https://github.com/feast-dev/feast) | Für jede historische Bestellung den zum Bestellzeitpunkt verfügbaren Lagerbestand als Trainingsmerkmal ergänzen. Ereigniszeit und Gültigkeitsdauer festlegen. Bei verspäteter Anlieferung gesondert prüfen, ab wann ein Wert im Produktivsystem sichtbar war. [Historische Feature-Abfragen](https://docs.feast.dev/getting-started/concepts/point-in-time-joins) | Apache-2.0 |
 | [flyteorg/flyte](https://github.com/flyteorg/flyte) | Type-safe, distributed orchestration of agents, ML pipelines, and real-time inference on your k8s — in pure Python with async/await, also other languages (rust, go and ts) | Apache-2.0 |
 | [kserve/kserve](https://github.com/kserve/kserve) | Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes | Apache-2.0 |
 | [mlflow/mlflow](https://github.com/mlflow/mlflow) | The open source AI engineering platform for agents, LLMs, and ML models. MLflow enables teams of all sizes to debug, evaluate, monitor, and optimize production-quality AI applications while controlling costs and managing access to models and data. | Apache-2.0 |
